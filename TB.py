@@ -267,7 +267,7 @@ def labeling_TrippleBarrier(close, fwd_t = 5, ptsl = [1,1], ptsl_target = 'daily
        - ret : 최초로배리어에 도달했을때의 실현된 수익률
        - bin : 결과의 부호에 따른 함수로 된 레이블. (상단에 먼저 도달1, 하단에먼저도달 -1)
        - t1 : 최초로 배리어에 도달했을때의 Date (=predFor)
-       - trgt : 도달시의 vol(?) 암튼 ret은아님.
+       - trgt : 도달시의 vol
         * DateIndex는 fwd(미래) 기준이 아닌, 현재 시점 기준.
         
     '''
